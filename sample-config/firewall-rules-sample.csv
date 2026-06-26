@@ -1,0 +1,12 @@
+Priority,Source,Destination,Service,Action,Log,Description
+1,IT-Admin-PC,Management VLAN,SSH/HTTPS/SNMP,Allow,Yes,Admin access
+2,Office-PC,Server VLAN,HTTPS/DNS/SMB,Allow,Yes,Business access
+3,Office-PC,Management VLAN,Any,Deny,Yes,Prevent unauthorized admin access
+4,Guest-WiFi,Internet,HTTP/HTTPS/DNS,Allow,Yes,Guest internet
+5,Guest-WiFi,Internal RFC1918,Any,Deny,Yes,Guest isolation
+6,IoT,Internet,Required ports,Allow,Yes,IoT cloud access
+7,IoT,Internal VLANs,Any,Deny,Yes,Prevent lateral movement
+8,CCTV,NVR,RTSP/HTTPS,Allow,Yes,Camera recording
+9,CCTV,Internet,Any,Deny,Yes,Block camera internet access
+10,VPN-Users,Server VLAN,Required services only,Allow,Yes,Remote work
+11,Any,Firewall Management,Any,Deny,Yes,Protect firewall
