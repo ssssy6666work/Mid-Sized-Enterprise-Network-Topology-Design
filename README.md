@@ -29,7 +29,7 @@
 | Main office | HQ |
 | Branch office | 遠端站點 |
 | Internet links | 雙 ISP 線路 |
-| Core security device | 下一代防火牆 |
+| Core security device | 次世代防火牆 |
 | Switching | Layer 2 / Layer 3 管理型交換器 |
 | Wireless | 企業 Wi-Fi、訪客 Wi-Fi、IoT SSID |
 | Authentication | RADIUS / 802.1X 概念 |
@@ -360,4 +360,3 @@ enterprise-network-security-lab/
 
 本專案僅供學習與作品集展示使用。  
 所有 IP 位址、拓撲圖、防火牆規則與設定皆為範例資料。  
-請勿在公開 Repository 中揭露真實公司資訊、正式環境防火牆規則、VPN 金鑰、密碼或內部網路拓撲。
