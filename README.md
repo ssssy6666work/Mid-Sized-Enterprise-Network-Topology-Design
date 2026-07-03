@@ -354,5 +354,3 @@ enterprise-network-security-lab/
 - 資安風險評估
 - IT 文件與維運檢查表撰寫
 - 基礎 SOC / 日誌監控思維
- 
-所有 IP 位址、拓撲圖、防火牆規則與設定皆為範例資料。  
